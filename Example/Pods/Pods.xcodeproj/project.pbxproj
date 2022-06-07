@@ -53,7 +53,7 @@
 		1569F1030804A20EEF6EFE1FE592F77A /* Pods-GLFBase4_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLFBase4_Example-Info.plist"; sourceTree = "<group>"; };
 		1FD741BFF6BDCB8B795B787A3165651A /* Pods-GLFBase4_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLFBase4_Tests.modulemap"; sourceTree = "<group>"; };
 		22B6AFFD1C70FD2046CE356E12BF5105 /* UIImage+Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
-		2505B97288ABE764E3CCB0958FB40C93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2505B97288ABE764E3CCB0958FB40C93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3200D746CC16AFA350F1CF51347EFDD5 /* Pods-GLFBase4_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLFBase4_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35F2ED5C42A451614F9E73F7C41BD87B /* UIViewController+MethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MethodSwizzling.h"; sourceTree = "<group>"; };
 		36CA1EFD0071A79AB9352A508C63314A /* UIImage+Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
@@ -73,10 +73,10 @@
 		774D80F15E04BD5E1E0ED39C7CAA92D6 /* GLFBase4 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLFBase4; path = GLFBase4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3817E63E6252035CD0A02A99C8A7ED /* Pods-GLFBase4_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLFBase4_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8155809E8880134465A7D6BE8545ECEE /* GLFBase4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLFBase4-umbrella.h"; sourceTree = "<group>"; };
-		82D3FB935EF498FAD744DA718B8869BE /* GLFBase4.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLFBase4.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82D3FB935EF498FAD744DA718B8869BE /* GLFBase4.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GLFBase4.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		979FCBE0EE7A09F7AF8D564E4ED1F7C1 /* GLFBase4-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GLFBase4-Info.plist"; sourceTree = "<group>"; };
 		9B6452230576CE48702BB400A17F123F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GLFBase4/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8F2AEB6DE865C40BE92663A6EB44F8 /* Pods-GLFBase4_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLFBase4_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD8888E7D67BA4BF9EE7C2D6CF6B008E /* Pods-GLFBase4_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLFBase4_Tests-Info.plist"; sourceTree = "<group>"; };
 		B2A03473B2EA88239DBBC0C354A65465 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		DEDD57DC40CDE859E29641DA6040C72F /* Pods-GLFBase4_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLFBase4_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9E5BDFB11CDC9A41C3044F5F9B99251 /* Pods-GLFBase4_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLFBase4_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EAF557E96C8F5FA66B12EBC720F506F5 /* Pods-GLFBase4_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLFBase4_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE3C5D8CDF8744F4AF1CD09B9DF7850B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE3C5D8CDF8744F4AF1CD09B9DF7850B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EF569A7A3817B229DC2D842FA5615903 /* Pods-GLFBase4_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLFBase4_Example-dummy.m"; sourceTree = "<group>"; };
 		F68EB2FE19012DBB8599293ADA966E40 /* UIAlertController+Alert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Alert.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -737,8 +737,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
