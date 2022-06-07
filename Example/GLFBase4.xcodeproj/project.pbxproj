@@ -60,10 +60,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		774072C24AC4FC21BF31926D /* GLFBase4.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GLFBase4.podspec; path = ../GLFBase4.podspec; sourceTree = "<group>"; };
-		84382AA979760ED4110F1284 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		774072C24AC4FC21BF31926D /* GLFBase4.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GLFBase4.podspec; path = ../GLFBase4.podspec; sourceTree = "<group>"; };
+		84382AA979760ED4110F1284 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91ED9B1872A430FDA2C36540 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91ED9B1872A430FDA2C36540 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A98841CF145C7B8BFB70ADBE /* Pods-GLFBase4_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLFBase4_Example.release.xcconfig"; path = "Target Support Files/Pods-GLFBase4_Example/Pods-GLFBase4_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC9078CC3FFD2D2A69211871 /* Pods-GLFBase4_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLFBase4_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GLFBase4_Tests/Pods-GLFBase4_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F434236A1F2843127CFCEFD1 /* Pods_GLFBase4_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLFBase4_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				CC9078CC3FFD2D2A69211871 /* Pods-GLFBase4_Tests.debug.xcconfig */,
 				3369A36D6C589C62410087B8 /* Pods-GLFBase4_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "291828952@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2PE6CKFEQ3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 41ACDEF70ECD618C076A4D53 /* Pods-GLFBase4_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PE6CKFEQ3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLFBase4/GLFBase4-Prefix.pch";
 				INFOPLIST_FILE = "GLFBase4/GLFBase4-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = A98841CF145C7B8BFB70ADBE /* Pods-GLFBase4_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PE6CKFEQ3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLFBase4/GLFBase4-Prefix.pch";
 				INFOPLIST_FILE = "GLFBase4/GLFBase4-Info.plist";

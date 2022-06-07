@@ -7,6 +7,7 @@
 //
 
 #import "GLFViewController.h"
+#import "UIAlertController+Alert.h""
 
 @interface GLFViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [UIAlertController showAlerttarget:self withTitle:@"测试组件化" withMessage:@"测试成功" withDismissTime:1.0];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,6 @@
+framework module GLFBase4 {
+  umbrella header "GLFBase4-umbrella.h"
+
+  export *
+  module * { export * }
+}
